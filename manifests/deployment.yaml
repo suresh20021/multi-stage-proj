@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demowk1
+  labels:
+    app: demowk1
+  namespace: multi-stage-project-ns
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demowk1
+  template:
+    metadata:
+      labels:
+        app: demowk1
+    spec:
+      containers:
+        - name: demowk1
+          image: myacr1506.azurecr.io/multi-stage-proj-img:latest
+          ports:
+            - containerPort: 8080
