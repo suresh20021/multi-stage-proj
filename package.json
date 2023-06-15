@@ -1,0 +1,16 @@
+{
+  "name": "multi-stage-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://mylinkfields@dev.azure.com/mylinkfields/multi-stage-proj/_git/multi-stage-proj"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
